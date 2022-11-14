@@ -1,0 +1,51 @@
+*{
+    font-family:'Courier New';
+    margin: 20px;
+}
+
+#lista-tarefas {
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: url("./assets/background.jpg");
+    background-position: center;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    margin: 70px;
+ }
+
+h1 {
+    text-align: center;
+
+}
+
+button {
+    color: white;
+    background-color: purple;
+    border: none;
+    height: 50px;
+    line-height: 25px;
+    padding: 0 20px;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-left: 10px;
+
+}
+
+#nome-tarefa {
+    background-color: white;
+    height: 40px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+#rodape{
+ text-align: center;
+ padding: 0;
+ margin: 30%;
+
+}
